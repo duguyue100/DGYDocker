@@ -18,6 +18,12 @@ Part of this project will be used in setting up DL environment for NSC student m
 + [ ] DL AER Image (gpu/cpu)
 + [ ] AER ROS Image
 
+## Related Resources
+
++ [NVIDIA Dockerfiles](https://gitlab.com/nvidia/cuda)
++ [Caffe Dockerfiles](https://github.com/BVLC/caffe/tree/master/docker)
++ [ROS Dockerfiles](https://github.com/osrf/docker_images/tree/7ba58fc107b368d6409c22161070eb93e562f240/ros)
+
 ## Contact
 
 Yuhuang Hu  
