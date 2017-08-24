@@ -6,6 +6,13 @@ This repo is to host my docker files for testing and fast prototyping softwares.
 The main idea is to get a full list of images that I can build flexible testing environment.
 Part of this project will be used in setting up DL environment for NSC student machine.
 
+## Design Principles
+
++ Everything is with Ubuntu LTS, starting from 16.04.
++ Anaconda Python as the default python.
++ Base image install only necessary packages for all images.
+
+
 ## Planned Image
 
 + [ ] Base Image that contains all essential building tools
@@ -23,6 +30,7 @@ Part of this project will be used in setting up DL environment for NSC student m
 + [NVIDIA Dockerfiles](https://gitlab.com/nvidia/cuda)
 + [Caffe Dockerfiles](https://github.com/BVLC/caffe/tree/master/docker)
 + [ROS Dockerfiles](https://github.com/osrf/docker_images/tree/7ba58fc107b368d6409c22161070eb93e562f240/ros)
++ [Anaconda Dockerfiles](https://github.com/ContinuumIO/docker-images)
 
 ## Contact
 
