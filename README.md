@@ -11,7 +11,7 @@ Part of this project will be used in setting up DL environment for NSC student m
 + Everything is with Ubuntu LTS, starting from 16.04.
 + Anaconda Python as the default python.
 + Base image install only necessary packages for all images.
-
++ `dl-base` dockerfile supports only necessary C/C++ and Python compilation.
 
 ## Planned Image
 
