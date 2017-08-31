@@ -4,3 +4,7 @@ LABEL maintainer "Yuhuang Hu <duguyue100@gmail.com>"
 
 # Install PyTorch
 RUN conda install -y pytorch torchvision -c soumith
+
+# TensorBoard support
+RUN pip install tensorflow-tensorboard
+RUN pip install tensorboard-pytorch

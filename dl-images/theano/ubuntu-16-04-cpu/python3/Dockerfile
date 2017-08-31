@@ -13,6 +13,9 @@ RUN conda install -y h5py
 # RUN pip install pydot==1.1.0
 RUN pip install Keras -U
 
+# TensorBoard support
+RUN pip install tensorflow-tensorboard
+
 # Configure keras
 RUN mkdir $HOME/.keras
 RUN wget --quiet https://raw.githubusercontent.com/duguyue100/DGYDocker/master/extras/keras/keras-theano.json -O $HOME/.keras/keras.json
