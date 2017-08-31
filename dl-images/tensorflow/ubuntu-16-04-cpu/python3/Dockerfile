@@ -7,7 +7,8 @@ RUN pip install --ignore-installed --upgrade \
         https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.3.0-cp36-cp36m-linux_x86_64.whl
 
 # Install Keras
-RUN conda install -y h5py pydot graphviz
+RUN conda install -y h5py
+# RUN pip install pydot==1.1.0
 RUN pip install Keras -U
 
 # Configure keras

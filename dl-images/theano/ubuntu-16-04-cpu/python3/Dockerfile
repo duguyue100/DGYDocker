@@ -9,7 +9,8 @@ RUN conda install -y theano
 RUN wget --quiet https://raw.githubusercontent.com/duguyue100/DGYDocker/master/extras/theano/theanorc-cpu -O $HOME/.theanorc
 
 # Install Keras
-RUN conda install -y h5py pydot graphviz
+RUN conda install -y h5py
+# RUN pip install pydot==1.1.0
 RUN pip install Keras -U
 
 # Configure keras
