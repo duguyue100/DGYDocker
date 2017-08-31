@@ -6,6 +6,78 @@ This repo is to host my docker files for testing and fast prototyping softwares.
 The main idea is to get a full list of images that I can build flexible testing environment.
 Part of this project will be used in setting up DL environment for NSC student machine.
 
+## List of Images
+
+### CPU
+
+#### Base Image
+
++ [base-cpu](./base/ubuntu-16-04-cpu)
++ [base-16-04-cpu](./base/ubuntu-16-04-cpu)
+
+#### Deep Learning Base
+
++ [dl-base-cpu-py2](./dl-images/dl-base/ubuntu-16-04-cpu/python2)
++ [dl-base-cpu-py3](./dl-images/dl-base/ubuntu-16-04-cpu/python3)
++ [dl-base-16-04-cpu-py2](./dl-images/dl-base/ubuntu-16-04-cpu/python2)
++ [dl-base-16-04-cpu-py3](./dl-images/dl-base/ubuntu-16-04-cpu/python3)
+
+#### Theano
+
++ [dl-th-cpu-py2](./dl-images/theano/ubuntu-16-04-cpu/python2)
++ [dl-th-cpu-py3](./dl-images/theano/ubuntu-16-04-cpu/python3)
++ [dl-th-16-04-cpu-py2](./dl-images/theano/ubuntu-16-04-cpu/python2)
++ [dl-th-16-04-cpu-py3](./dl-images/theano/ubuntu-16-04-cpu/python3)
+
+#### TensorFlow
+
++ [dl-tf-cpu-py2](./dl-images/tensorflow/ubuntu-16-04-cpu/python2)
++ [dl-tf-cpu-py3](./dl-images/tensorflow/ubuntu-16-04-cpu/python3)
++ [dl-tf-16-04-cpu-py2](./dl-images/tensorflow/ubuntu-16-04-cpu/python2)
++ [dl-tf-16-04-cpu-py3](./dl-images/tensorflow/ubuntu-16-04-cpu/python3)
+
+#### PyTorch
+
++ [dl-pt-cpu-py2](./dl-images/pytorch/ubuntu-16-04-cpu/python2)
++ [dl-pt-cpu-py3](./dl-images/pytorch/ubuntu-16-04-cpu/python3)
++ [dl-pt-16-04-cpu-py2](./dl-images/pytorch/ubuntu-16-04-cpu/python2)
++ [dl-pt-16-04-cpu-py3](./dl-images/pytorch/ubuntu-16-04-cpu/python3)
+
+### GPU (not yet implemented)
+
+#### Base Image
+
++ [base-gpu](./base/ubuntu-16-04-gpu)
++ [base-16-04-gpu](./base/ubuntu-16-04-gpu)
+
+#### Deep Learning Base
+
++ [dl-base-gpu-py2](./dl-images/dl-base/ubuntu-16-04-gpu/python2)
++ [dl-base-gpu-py3](./dl-images/dl-base/ubuntu-16-04-gpu/python3)
++ [dl-base-16-04-gpu-py2](./dl-images/dl-base/ubuntu-16-04-gpu/python2)
++ [dl-base-16-04-gpu-py3](./dl-images/dl-base/ubuntu-16-04-gpu/python3)
+
+#### Theano
+
++ [dl-th-gpu-py2](./dl-images/theano/ubuntu-16-04-gpu/python2)
++ [dl-th-gpu-py3](./dl-images/theano/ubuntu-16-04-gpu/python3)
++ [dl-th-16-04-gpu-py2](./dl-images/theano/ubuntu-16-04-gpu/python2)
++ [dl-th-16-04-gpu-py3](./dl-images/theano/ubuntu-16-04-gpu/python3)
+
+#### TensorFlow
+
++ [dl-tf-gpu-py2](./dl-images/tensorflow/ubuntu-16-04-gpu/python2)
++ [dl-tf-gpu-py3](./dl-images/tensorflow/ubuntu-16-04-gpu/python3)
++ [dl-tf-16-04-gpu-py2](./dl-images/tensorflow/ubuntu-16-04-gpu/python2)
++ [dl-tf-16-04-gpu-py3](./dl-images/tensorflow/ubuntu-16-04-gpu/python3)
+
+#### PyTorch
+
++ [dl-pt-gpu-py2](./dl-images/pytorch/ubuntu-16-04-gpu/python2)
++ [dl-pt-gpu-py3](./dl-images/pytorch/ubuntu-16-04-gpu/python3)
++ [dl-pt-16-04-gpu-py2](./dl-images/pytorch/ubuntu-16-04-gpu/python2)
++ [dl-pt-16-04-gpu-py3](./dl-images/pytorch/ubuntu-16-04-gpu/python3)
+
 ## Design Principles
 
 + Everything is with Ubuntu LTS, starting from 16.04.
