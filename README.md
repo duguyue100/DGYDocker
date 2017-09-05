@@ -30,6 +30,11 @@ Part of this project will be used in setting up DL environment for NSC student m
 |[base-16-04-gpu](./base/ubuntu-16-04-gpu)|[dl-base-gpu-py3](./dl-images/dl-base/ubuntu-16-04-gpu/python3)|[dl-th-gpu-py3](./dl-images/theano/ubuntu-16-04-gpu/python3)|[dl-tf-gpu-py3](./dl-images/tensorflow/ubuntu-16-04-gpu/python3)|[dl-pt-gpu-py3](./dl-images/pytorch/ubuntu-16-04-gpu/python3)|
 ||[dl-base-16-04-gpu-py2](./dl-images/dl-base/ubuntu-16-04-gpu/python2)|[dl-th-16-04-gpu-py2](./dl-images/theano/ubuntu-16-04-gpu/python2)|[dl-th-16-04-gpu-py2](./dl-images/tensorflow/ubuntu-16-04-gpu/python2)|[dl-pt-16-04-gpu-py2](./dl-images/pytorch/ubuntu-16-04-gpu/python2)|
 ||[dl-base-16-04-gpu-py3](./dl-images/dl-base/ubuntu-16-04-gpu/python3)|[dl-th-16-04-gpu-py3](./dl-images/theano/ubuntu-16-04-gpu/python3)|[dl-th-16-04-gpu-py3](./dl-images/tensorflow/ubuntu-16-04-gpu/python3)|[dl-pt-16-04-gpu-py3](./dl-images/pytorch/ubuntu-16-04-gpu/python3)|
+|__Caffe__|__Caffe2__|__DMLC__|__Torch__|__FULL__|
+|         |          |        |         |[dl-full-gpu-py2](./dl-images/full/ubuntu-16-04-gpu/python2)|
+|         |          |        |         |[dl-full-gpu-py3](./dl-images/full/ubuntu-16-04-gpu/python3)|
+|         |          |        |         |[dl-full-16-04-gpu-py2](./dl-images/full/ubuntu-16-04-gpu/python2)|
+|         |          |        |         |[dl-full-16-04-gpu-py3](./dl-images/full/ubuntu-16-04-gpu/python3)|
 
 ## Design Principles
 
