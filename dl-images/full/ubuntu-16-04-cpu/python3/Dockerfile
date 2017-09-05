@@ -44,8 +44,5 @@ RUN wget --quiet https://raw.githubusercontent.com/duguyue100/DGYDocker/master/e
 
 ### DMLC ####
 
-# Install Xgboost
-pip install xgboost
-
-# Install mxnet
-pip install mxnet==0.11.0.rc3
+# Install Xgboost and mxnet
+RUN pip install xgboost mxnet==0.11.0.rc3
