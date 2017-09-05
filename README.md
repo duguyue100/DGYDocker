@@ -62,6 +62,11 @@ Part of this project will be used in setting up DL environment for NSC student m
 + [ROS Dockerfiles](https://github.com/osrf/docker_images/tree/7ba58fc107b368d6409c22161070eb93e562f240/ros)
 + [Anaconda Dockerfiles](https://github.com/ContinuumIO/docker-images)
 
+## Notes
+
+1. From the test, it seems that `theano` on CPU container is much slower than my native run on Mac.
+Not sure if it's also true on Linux.
+
 ## Contact
 
 Yuhuang Hu  
