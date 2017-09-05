@@ -1,5 +1,5 @@
 ARG repository=duguyue100/dgydocker
-FROM ${repository}:dl-base-cpu-py2
+FROM ${repository}:dl-base-cpu-py3
 LABEL maintainer "Yuhuang Hu <duguyue100@gmail.com>"
 
 # Current available libraries
@@ -22,7 +22,8 @@ RUN pip install --ignore-installed --upgrade \
 RUN conda install -y pytorch torchvision -c soumith
 
 # Install Keras
-RUN conda install -y h5py pydot graphviz
+RUN conda install -y h5py
+# RUN pip install pydot==1.1.0
 RUN pip install Keras -U
 
 # TensorBoard support
