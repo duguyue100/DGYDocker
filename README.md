@@ -22,7 +22,7 @@ Part of this project will be used in setting up DL environment for NSC student m
 |         |          |[dl-dmlc-16-04-cpu-py2](./dl-images/dmlc/ubuntu-16-04-cpu/python2)|         |[dl-full-16-04-cpu-py2](./dl-images/full/ubuntu-16-04-cpu/python2)|
 |         |          |[dl-dmlc-16-04-cpu-py3](./dl-images/dmlc/ubuntu-16-04-cpu/python3)|         |[dl-full-16-04-cpu-py3](./dl-images/full/ubuntu-16-04-cpu/python3)|
 
-### GPU (not yet implemented)
+### GPU
 
 |Base Image|Deep Learning Base|Theano|TensorFlow|PyTorch|
 |:---------|:-----------------|:-----|:---------|:------|
