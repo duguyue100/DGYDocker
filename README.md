@@ -63,6 +63,8 @@ Part of this project will be used in setting up DL environment for NSC student m
 1. From the test, it seems that `theano` on CPU container is much slower than my native run on Mac.
 Not sure if it's also true on Linux.
 
+2. Docker auto build is not always consistent.
+
 ## Contact
 
 Yuhuang Hu  
