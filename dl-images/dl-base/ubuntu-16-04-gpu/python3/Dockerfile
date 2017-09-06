@@ -1,5 +1,5 @@
 ARG repository=duguyue100/dgydocker
-FROM ${repository}:base-cpu
+FROM ${repository}:base-gpu
 LABEL maintainer "Yuhuang Hu <duguyue100@gmail.com>"
 
 # setup python3 from Anaconda
