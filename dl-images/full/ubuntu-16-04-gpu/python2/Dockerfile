@@ -1,5 +1,5 @@
 ARG repository=duguyue100/dgydocker
-FROM ${repository}:dl-base-cpu-py2
+FROM ${repository}:dl-base-gpu-py2
 LABEL maintainer "Yuhuang Hu <duguyue100@gmail.com>"
 
 # Current available libraries
