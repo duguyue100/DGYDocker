@@ -22,7 +22,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 
 # build and install caffe2 at /usr/local, no Python
-RUN git clone --recursive https://github.com/caffe2/caffe2.git && cd caffe2 \
+RUN git clone --recursive https://github.com/caffe2/caffe2.git $HOME/caffe2 && cd $HOME/caffe2 \
     && mkdir build && cd build \
     && cmake .. \
     -DUSE_CUDA=OFF \
