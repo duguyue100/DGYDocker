@@ -5,7 +5,7 @@ LABEL maintainer "Yuhuang Hu <duguyue100@gmail.com>"
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 
 # Global packages install
-RUN rm -rf /var/lib/apt/lists/* && apt-get clean && apt-get update && apt-get install -y --no-install-recommends \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     apt-utils
 
 # Get software properties common
